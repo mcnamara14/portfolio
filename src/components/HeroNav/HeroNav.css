@@ -1,0 +1,90 @@
+.hero {
+  height: 600px;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.heroInfo {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.heroInfo h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.heroInfo h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.heroInfo h5 {
+  font-size: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heroInfo h5 span {
+  font-size: 1.7rem;
+  margin-left: 130px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: -40px !important;
+  
+}
+
+.heroInfoLeft {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.heroInfoCenter {
+  width: 68%;
+  margin-right: 2%;
+  margin-top: 40px;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroInfoRight {
+  width: 17%;
+  margin-top: 40px;
+  align-items: end;
+  display: flex;
+  justify-content: center;
+}
+
+.heroNav {
+  height: 100px;
+  background: #fff;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  right: 0;
+  color: #9c9c9c;
+  display: flex;
+  padding: 0 45px;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.heroNavLeft {
+  color: #202020;
+}
+
+.heroNav div {
+  width: 20%;
+  margin-top: 15px;
+}

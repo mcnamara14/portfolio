@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Hero.css';
 import Nav from '../Nav/Nav';
+import HeroNav from '../HeroNav/HeroNav';
 import image from './images/evo-lite-main.jpg';
 import HeroInfo from '../HeroInfo/HeroInfo';
 
@@ -12,6 +13,7 @@ class Hero extends Component {
       <section className="hero" style={ backgroundImage } >
         <Nav />
         <HeroInfo />
+        <HeroNav />
       </section>
     );
   }

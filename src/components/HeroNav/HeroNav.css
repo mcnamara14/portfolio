@@ -37,7 +37,11 @@
   font-weight: 300;
   position: absolute;
   margin-top: -40px !important;
-  
+}
+
+.heroNav h6 {
+  font-size: 0.8rem;
+  margin-top: 10px;
 }
 
 .heroInfoLeft {

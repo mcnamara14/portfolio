@@ -11,7 +11,7 @@ class ProjectInfo extends Component {
 
     if (activeProject) {
       const { company } = activeProject;
-      
+
       switch (company) {
         case 'Evo-Lite':
           sideImg = evoLiteSide
@@ -23,7 +23,12 @@ class ProjectInfo extends Component {
   
       return (
         <section className="projectInfo">
-          <article className="projectSide">
+          <article className="projectInfoLeft">
+            <h4>2012-2017</h4>
+            <h3>Web development and all online marketing for Evo-Lite</h3>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </article>
+          <article className="projectInfoRight">
             <img src={sideImg} />
           </article>
         </section>

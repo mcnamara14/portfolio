@@ -4,6 +4,7 @@ import './Hero.css';
 import Nav from '../Nav/Nav';
 import HeroNav from '../HeroNav/HeroNav';
 import evoliteImage from './images/evo-lite-main.jpg';
+import happyHourImage from './images/happy-hour-hero-main.jpg'
 import japan from './images/japan.jpg';
 import HeroInfo from '../HeroInfo/HeroInfo';
 
@@ -14,15 +15,16 @@ class Hero extends Component {
 
     if (projects.length) {
       const activeProject = projects.find(project => project.active === true);
-      const { company, title, year } = activeProject;
-      company === 'Evo-Lite' ? image = evoliteImage : image = japan;
+      const index = '0' + (projects.indexOf(activeProject) + 1);
+      const { company, title, dates } = activeProject;
+      company === 'Evo-Lite' ? image = evoliteImage : image = happyHourImage;
 
       const backgroundImage = {backgroundImage: "url(" + image + ")"};
 
     return (
       <section className="hero" style={ backgroundImage } >
         <Nav />
-        <HeroInfo company={company} title={title} year={year}/>
+        <HeroInfo company={company} title={title} dates={dates} index={index}/>
         <HeroNav />
       </section>
     );

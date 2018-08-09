@@ -13,8 +13,9 @@ class Hero extends Component {
     const { projects } = this.props;
 
     if (projects.length) {
+      console.log(projects)
       const activeProject = projects.find(project => project.active === true);
-      const { company, title, year } = activeProject;
+      const { company, title, dates } = activeProject;
       company === 'Evo-Lite' ? image = evoliteImage : image = japan;
 
       const backgroundImage = {backgroundImage: "url(" + image + ")"};
@@ -22,7 +23,7 @@ class Hero extends Component {
     return (
       <section className="hero" style={ backgroundImage } >
         <Nav />
-        <HeroInfo company={company} title={title} year={year}/>
+        <HeroInfo company={company} title={title} dates={dates}/>
         <HeroNav />
       </section>
     );

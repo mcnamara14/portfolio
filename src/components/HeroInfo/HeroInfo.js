@@ -4,7 +4,7 @@ import './HeroInfo.css';
 class HeroInfo extends Component {
   render() {
     let activeProject;
-    const { company, title, year } = this.props;
+    const { company, title, dates } = this.props;
 
    
     let num = '01';
@@ -13,7 +13,7 @@ class HeroInfo extends Component {
     return (
       <section className="heroInfo">
         <div className="heroInfoLeft">
-          <p>{year}</p>
+          <p>{dates}</p>
         </div>
         <div className="heroInfoCenter">
           <h3>{company}</h3>

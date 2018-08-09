@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import './App.css';
 import { Route } from 'react-router-dom'; 
 import Hero from '../Hero/Hero';
+import ProjectInfo from '../ProjectInfo/ProjectInfo';
 import { storeProject } from '../../actions';
 
 class App extends Component {
@@ -43,6 +44,7 @@ storeProjects = () => {
       <div className="App">
         <Hero />
         <div className="mainContent">
+          <ProjectInfo />
         </div>
       </div>
     );

@@ -4,6 +4,7 @@ import './Hero.css';
 import Nav from '../Nav/Nav';
 import HeroNav from '../HeroNav/HeroNav';
 import evoliteImage from './images/evo-lite-main.jpg';
+import japan from './images/japan.jpg';
 import HeroInfo from '../HeroInfo/HeroInfo';
 
 class Hero extends Component {
@@ -14,7 +15,7 @@ class Hero extends Component {
     if (projects.length) {
       const activeProject = projects.find(project => project.active === true);
       const { company, title, year } = activeProject;
-      company === 'Evo-Lite' ? image = evoliteImage : image = evoliteImage ;
+      company === 'Evo-Lite' ? image = evoliteImage : image = japan;
 
       const backgroundImage = {backgroundImage: "url(" + image + ")"};
 

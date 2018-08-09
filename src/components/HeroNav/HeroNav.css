@@ -84,11 +84,15 @@
   font-weight: 700;
 }
 
-.heroNavLeft {
+.active {
   color: #202020;
 }
 
 .heroNav div {
   width: 20%;
   margin-top: 15px;
+}
+
+.heroNavLink:hover {
+  cursor: pointer;
 }

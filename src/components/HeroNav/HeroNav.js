@@ -39,11 +39,11 @@ class HeroNav extends Component {
         </div>
         <div className="heroNavCenter heroNavLink" onClick={(event) => this.toggleProject(event)}>
           <p>02.</p>
-          <h6>React / Redux Event Planner</h6>
+          <h6>Happy Hour Locator and API</h6>
         </div>
         <div className="heroNavRight heroNavLink" onClick={(event) => this.toggleProject(event)}>
           <p>03.</p>
-          <h6>Denver Happy Hour API</h6>
+          <h6>React / Redux Event Planner</h6>
         </div>
       </section>
     );

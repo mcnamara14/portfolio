@@ -27,8 +27,8 @@ constructor() {
     },
     {
       image: 'evo-lite-main.jpg',
-      company: 'Daytrip',
-      title: 'React / Redux Event Planner',
+      company: 'Happy Hour Hero',
+      title: 'Happy Hour Locator and API',
       dates: '2018',
       projectInfoTitle: 'Web development and all online marketing for Evo-Lite',
       projectInfoTitle1: 'Website Design & Development',

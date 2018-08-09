@@ -4,10 +4,10 @@ import './HeroInfo.css';
 class HeroInfo extends Component {
   render() {
     let activeProject;
-    const { company, title, dates } = this.props;
+    const { company, title, dates, index } = this.props;
 
    
-    let num = '01';
+    let num = index;
     let outOf = '03';
 
     return (

@@ -92,3 +92,7 @@
   width: 20%;
   margin-top: 15px;
 }
+
+.heroNavLink:hover {
+  cursor: pointer;
+}

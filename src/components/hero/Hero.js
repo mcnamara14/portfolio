@@ -7,6 +7,7 @@ import evoliteImage from './images/evo-lite-main.jpg';
 import happyHourImage from './images/happy-hour-hero-main.jpg'
 import daytripImage from './images/daytrip-main.jpg';
 import HeroInfo from '../HeroInfo/HeroInfo';
+import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 class Hero extends Component {
   render() {
@@ -35,11 +36,16 @@ class Hero extends Component {
       const backgroundImage = {backgroundImage: "url(" + image + ")"};
 
     return (
-      <section className="hero" style={ backgroundImage } >
-        <Nav />
-        <HeroInfo company={company} title={title} dates={dates} index={index}/>
-        <HeroNav />
-      </section>
+      <div>
+        <section className="hero" style={ backgroundImage } >
+          <Nav />
+          <HeroInfo company={company} title={title} dates={dates} index={index}/>
+          <HeroNav />
+        </section>
+        <div className="mainContent">
+        <ProjectInfo />
+        </div>
+      </div>
     );
   } else {
     return null;

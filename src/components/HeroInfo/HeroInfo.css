@@ -9,17 +9,20 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  text-shadow: 1px 1px 1px #666;
 }
 
 .heroInfo h3 {
   font-size: 1rem;
   font-weight: 300;
+  text-shadow: 1px 1px 1px #666;
 }
 
 .heroInfo h4 {
   font-size: 3rem;
   font-weight: 700;
   margin: 0;
+  text-shadow: 1px 1px 1px #666;
   padding: 0;
 }
 
@@ -27,6 +30,7 @@
   font-size: 4rem;
   width: 100%;
   display: flex;
+  text-shadow: 1px 1px 1px #666;
   align-items: flex-end;
 }
 
@@ -35,6 +39,7 @@
   margin-left: 130px;
   font-weight: 300;
   position: absolute;
+  text-shadow: 1px 1px 1px #666;
   margin-top: -40px !important;
   
 }

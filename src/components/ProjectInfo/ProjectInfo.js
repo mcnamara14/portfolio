@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import './ProjectInfo.css';
 import evoLiteSide from './images/evo-lite-side.jpg';
 import happyHeroSide from './images/happy-hour-hero-side.jpg';
+import daytripSide from './images/daytrip-side.jpg';
 
 class ProjectInfo extends Component {
   render() {
@@ -29,6 +30,9 @@ class ProjectInfo extends Component {
           break;
         case 'Happy Hour Hero':
           sideImg = happyHeroSide
+          break;
+        case 'Daytrip':
+          sideImg = daytripSide
           break;
         default:
           null

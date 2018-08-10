@@ -24,7 +24,7 @@ export const projects = [
    },
    {
     company: 'Daytrip',
-    title: 'React / Redux Day or Night Planner',
+    title: 'React / Redux Day Planner',
     dates: '2018',
     projectInfoTitle: 'Web development and all online marketing for Evo-Lite',
     projectInfoTitle1: 'Website Design & Development',

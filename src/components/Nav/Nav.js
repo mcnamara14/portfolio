@@ -9,7 +9,7 @@ class Nav extends Component {
         <div className="navContainer">
           <div className="navLeft">
             <div className="logo">tyler<span>mcnamara</span></div>
-            <a>Projects</a>
+            <NavLink to="/">Projects</NavLink>
             <NavLink to="/resume">Resume</NavLink>
           </div>
           <div className="navRight">

@@ -40,22 +40,29 @@
   font-size: 1.2rem;
 }
 
+.resume h4 span {
+  color: #888;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
 .resume h5 {
   margin-top: 10px;
   color: #555;
 }
 
-.resume p {
+.resume p, .resume li {
   color: #888;
   font-size: 0.9rem;
   font-weight: 300;
+  margin-top: 5px;
 }
 
 .resumeLeft, .resumeRight {
   width: 48%;
 }
 
-.resume a {
+.resumeRight a {
   color: #e83c25;
   margin-top: 5px;
   display: block;

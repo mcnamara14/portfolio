@@ -6,6 +6,7 @@ import Hero from '../Hero/Hero';
 import { storeProject } from '../../actions';
 import { projects } from '../../projectData/projectData';
 import Resume from '../Resume/Resume';
+import Contact from '../Contact/Contact';
 
 class App extends Component {
 componentDidMount() {
@@ -25,6 +26,7 @@ storeProjects = () => {
       <div className="App">
         <Route exact path='/' component={Hero} />
         <Route path='/resume' component={Resume} />
+        <Route path='/contact' component={Contact} />
       </div>
     );
   }

@@ -9,13 +9,12 @@ class Nav extends Component {
         <div className="navContainer">
           <div className="navLeft">
             <div className="logo">tyler<span>mcnamara</span></div>
-            <NavLink to="/">Projects</NavLink>
-            <NavLink to="/resume">Resume</NavLink>
           </div>
           <div className="navRight">
-            <a>About</a>
-            <a>Contact</a>
-            <i class="fas fa-bars"></i>
+            <NavLink to="/">Projects</NavLink>
+            <NavLink to="/resume">Resume</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+            {/* <i class="fas fa-bars"></i> */}
           </div>
         </div>
       </section>

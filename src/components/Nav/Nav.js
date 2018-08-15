@@ -13,7 +13,7 @@ class Nav extends Component {
           <div className="navRight">
             <NavLink to="/">Projects</NavLink>
             <NavLink to="/resume">Resume</NavLink>
-            <a>Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
             {/* <i class="fas fa-bars"></i> */}
           </div>
         </div>

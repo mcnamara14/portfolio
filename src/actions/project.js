@@ -1,5 +1,4 @@
 export const storeProject = (
-  image, 
   company, 
   title, 
   dates, 
@@ -12,7 +11,6 @@ export const storeProject = (
   projectInfoBodyP4,  
   active) => ({
   type: 'STORE_PROJECT',
-  image,
   company,
   title,
   dates,

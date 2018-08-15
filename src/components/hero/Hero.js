@@ -5,8 +5,9 @@ import Nav from '../Nav/Nav';
 import HeroNav from '../HeroNav/HeroNav';
 import evoliteImage from './images/evo-lite-main.jpg';
 import happyHourImage from './images/happy-hour-hero-main.jpg'
-import japan from './images/japan.jpg';
+import daytripImage from './images/daytrip-main.jpg';
 import HeroInfo from '../HeroInfo/HeroInfo';
+import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 class Hero extends Component {
   render() {
@@ -17,16 +18,34 @@ class Hero extends Component {
       const activeProject = projects.find(project => project.active === true);
       const index = '0' + (projects.indexOf(activeProject) + 1);
       const { company, title, dates } = activeProject;
-      company === 'Evo-Lite' ? image = evoliteImage : image = happyHourImage;
+      console.log(company)
+      switch(company) {
+        case 'Evo-Lite':
+          image = evoliteImage;
+          break;
+        case 'Happy Hour Hero':
+          image = happyHourImage;
+          break;
+        case 'Daytrip':
+          image = daytripImage;
+          break;
+        default:
+          null
+      }
 
       const backgroundImage = {backgroundImage: "url(" + image + ")"};
 
     return (
-      <section className="hero" style={ backgroundImage } >
-        <Nav />
-        <HeroInfo company={company} title={title} dates={dates} index={index}/>
-        <HeroNav />
-      </section>
+      <div>
+        <section className="hero" style={ backgroundImage } >
+          <Nav />
+          <HeroInfo company={company} title={title} dates={dates} index={index}/>
+          <HeroNav />
+        </section>
+        <div className="mainContent">
+        <ProjectInfo />
+        </div>
+      </div>
     );
   } else {
     return null;

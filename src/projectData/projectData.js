@@ -16,10 +16,13 @@ export const projects = [
     company: 'Happy Hour Hero',
     title: 'Happy Hour Locator and API',
     dates: '2018',
-    projectInfoTitle: 'Web development and all online marketing for Evo-Lite',
-    projectInfoTitle1: 'Website Design & Development',
-    projectInfoBodyP1: 'When approached by Evo-Lite originally, they had a very simple, static website with very little content. As a growing company they required a site that could expand to meet their needs as they matured. We designed a website that could be updated easily and included the many features they required, including: photo gallery, web chat, landing pages for newsletter leads, product documentation hub, multiple contact forms, and dynamic product pages.',
-    projectInfoBodyP2: 'The process was extensive but resulted in the client getting exactly what they needed out of a site.',
+    projectInfoTitle: 'Custom API with React & Redux',
+    projectInfoTitle1: 'PostgreSQL / Node.js / Express',
+    projectInfoBodyP1: 'Up-to-date happy hour data isn\'t readily available through an API so we needed to both collect our own data and create a database & server to access it on the front-end',
+    projectInfoBodyP2: 'We used PostgreSQL in combination with Knex to set up our database and Node.js with Express to set up our server and endpoints. Creating the schema and the custom endpoints required to access the data needed for the layout of the application proved to be challenging but something we accomplished. Currently we are working on redesigning the entire database along with using GraphQL to query it to increase efficiency and limit over and / or under fetching.',
+    projectInfoTitle2: 'Front-End',
+    projectInfoBodyP3: 'React, Redux, and Router were used for the front-end of the application. React is very fast and a library we are extremely comfortable working with, the reason we went that route for Happy Hour Hero.',
+    projectInfoBodyP4: 'The application was built to make finding a happy hour special extremely easy for the user. The user can search by current location, a different location, or by restaurant. After doing so restaurants within walking distance are displayed on a map and in a list view with a clock counting down to each ones start time, directions to the restaurant, best happy hour food and drink special, contact info for the restaurant, and ability to share with friends. Future plans are to expand throughout the US, allow for restaurants to login to change their specials, allow users to leave reviews, and filters for seating type, restaurant type, and time and day.',
     active: false
    },
    {

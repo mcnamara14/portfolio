@@ -1,6 +1,7 @@
 .resume {
   height: 500px;
   background-size: cover;
+  transition: all ease-in-out 0.2s;
 }
 
 .resumeHeader {
@@ -32,12 +33,14 @@
 }
 
 .resume h3 {
+  margin-top: 50px;
   font-size: 1.6rem;
 }
 
 .resume h4 {
   margin-bottom: 0;
   font-size: 1.2rem;
+  color: #333;
 }
 
 .resume h4 span {

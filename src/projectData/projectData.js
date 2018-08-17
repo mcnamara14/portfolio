@@ -29,10 +29,10 @@ export const projects = [
     company: 'Daytrip',
     title: 'React / Redux Day Planner',
     dates: '2018',
-    projectInfoTitle: 'Web development and all online marketing for Evo-Lite',
-    projectInfoTitle1: 'Website Design & Development',
-    projectInfoBodyP1: 'When approached by Evo-Lite originally, they had a very simple, static website with very little content. As a growing company they required a site that could expand to meet their needs as they matured. We designed a website that could be updated easily and included the many features they required, including: photo gallery, web chat, landing pages for newsletter leads, product documentation hub, multiple contact forms, and dynamic product pages.',
-    projectInfoBodyP2: 'The process was extensive but resulted in the client getting exactly what they needed out of a site.',
+    projectInfoTitle: 'Design focused before and after event planner',
+    projectInfoTitle1: 'Multiple APIs in combination with Firebase back-end',
+    projectInfoBodyP1: 'This day / night planning app was created to help people organize there day by providing three plans to choose from which include something to do before an event, the event, and what to do after based on selected filters.',
+    projectInfoBodyP2: 'Ticketmaster\'s API was used to display upcoming events in the selected city or the event chosen by the user. Google was used to display a map with walking directions to the event and to provide autoselect options for the location. Finally, Yelp provided the restaurants and bars that the user can sort by type of restaurant and price range. The highest rated restaurants & bars within walking distance are ultimately displayed in each plan',
     active: false
    }
 ]

@@ -41,3 +41,34 @@
   font-size: 2.5rem;
   color: #e83c25;
 }
+
+@media only screen and (max-width: 750px) {
+  .projectInfoRight, .projectInfoLeft {
+    width: 80%;
+  }
+
+  .projectInfo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .projectInfo h5 {
+    font-size: 1rem;
+  }
+
+  .heroInfoRight {
+    width: 25%;
+  }
+
+  .navLeft, .navRight {
+    width: 40%;
+  }
+
+  .heroInfoCenter {
+    width: 48%;
+  }
+}
